@@ -43,7 +43,6 @@ const DashboardScreen = ({ navigation }) => {
     }));
   };
 
-  // Função simples para cores por categoria (pode ser aprimorada)
   const getColor = (categoria) => {
     const cores = {
       Alimentação: '#f39c12',
